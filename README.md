@@ -1,0 +1,1 @@
+This repository demonstrates a common bug in Solidity smart contracts: unauthorized ownership transfer. The `bug.sol` file contains the vulnerable code, while `bugSolution.sol` provides the corrected version.  The issue lies in the lack of an ownership check before transferring ownership, making the contract susceptible to malicious actors.
